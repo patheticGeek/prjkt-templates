@@ -1,0 +1,21 @@
+welcome_message: "Getting things ready for you"
+
+actions:
+  - 
+    name: Delete lock file(s)
+    type: delete
+    files: *lock*
+  -
+    name: Install dependencies
+    type: exec-option
+    prompt: Pick your poison
+    options: pnpm, yarn, npm, none
+    option-pnpm: pnpm i
+    option-yarn: yarn
+    option-npm: npm i
+
+no_actions_message: "Such a smart A$$"
+
+error_message: "If you think there is something wrong with this action open an issue here:\nhttps://github.com/patheticGeek/prjkt-templates/issues"
+
+success_message: "All setup! ✨ Enjoy"
