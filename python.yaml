@@ -1,0 +1,13 @@
+welcome_message: "Getting things ready for you"
+
+actions:
+  -
+    name: Install dependencies
+    type: exec
+    run: pip install -r requirements.txt
+
+no_actions_message: "Such a smart A$$"
+
+error_message: "If you think there is something wrong with this action open an issue here:\nhttps://github.com/patheticGeek/prjkt-templates/issues"
+
+success_message: "All setup! ✨ Enjoy"
