@@ -4,7 +4,7 @@ actions:
   - 
     name: Delete lock file(s)
     type: delete
-    files: *lock*
+    files: "*lock*"
   -
     name: Install dependencies
     type: exec-option
